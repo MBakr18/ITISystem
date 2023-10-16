@@ -1,0 +1,76 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+
+    <Style TargetType="Border" x:Key="WindowBorder">
+  
+        <Setter Property="Background" >
+            <Setter.Value>
+                <LinearGradientBrush>
+                    <GradientStop Color="WhiteSmoke" Offset="0.0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Setter.Value>
+ 
+        </Setter>
+        <Setter Property="BorderThickness" Value="0"></Setter>
+    </Style>
+
+    <Style TargetType="Border" x:Key="ControlBorder">
+        <Setter Property="Margin" Value="10 0 40 0"></Setter>
+        <Setter Property="BorderThickness" Value="0"></Setter>
+        <Setter Property="BorderBrush" Value="#212529"></Setter>
+        <!-- <Setter Property="Background" > -->
+        <!--     <Setter.Value> -->
+        <!--         <LinearGradientBrush> -->
+        <!--             <GradientStop Color="#212529" Offset="0.0"/> -->
+        <!--             <GradientStop Color="#221C1C" Offset="1"/> -->
+        <!--         </LinearGradientBrush> -->
+        <!--     </Setter.Value> -->
+        <!-- </Setter> -->
+    </Style>
+
+    <Style TargetType="Border" x:Key="TableBorder">
+        <Setter Property="Margin" Value="0"></Setter>
+        <!-- <Setter Property="BorderThickness" Value="2"></Setter> -->
+        <Setter Property="BorderBrush" Value="#212529"></Setter>
+        <!-- <Setter Property="Background" > -->
+        <!--     <Setter.Value> -->
+        <!--         <LinearGradientBrush> -->
+        <!--             <GradientStop Color="#212529" Offset="0.0"/> -->
+        <!--             <GradientStop Color="#221C1C" Offset="1"/> -->
+        <!--         </LinearGradientBrush> -->
+        <!--     </Setter.Value> -->
+        <!-- </Setter> -->
+    </Style>
+
+    <Style TargetType="Border" x:Key="LoginBorder">
+        <Setter Property="CornerRadius" Value="3"></Setter>
+        <Setter Property="Margin" Value="0"></Setter>
+        <Setter Property="BorderThickness" Value="0"></Setter>
+        <Setter Property="BorderBrush" Value="#212529"></Setter>
+        <Setter Property="Background" >
+            <Setter.Value>
+                <LinearGradientBrush>
+                    <GradientStop Color="WhiteSmoke" Offset="0.0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="Effect">
+            <Setter.Value>
+                <DropShadowEffect
+                    ShadowDepth="3"
+                    BlurRadius="5"
+                    Color="#212529"
+                    Opacity="0.6"
+                    Direction="310"
+                />
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+
+
+
+</ResourceDictionary>

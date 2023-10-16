@@ -1,0 +1,19 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!--<Style TargetType="DataGrid" x:Key="allDataGrid" BasedOn="{StaticResource MaterialDesignDataGrid}">
+      
+
+        --><!--<DataGrid Grid.Column="1" AutoGenerateColumns="False" ItemsSource="{x:Static models:StudentList.Students}"
+           HorizontalAlignment="Center"
+           VerticalAlignment="Top"
+           Background="#748ffc"
+           Foreground="#364fc7"
+           VerticalGridLinesBrush="#FF6610FD"
+           HorizontalGridLinesBrush="Red">
+
+            <DataGrid.Columns>-->
+        
+
+    <!--</Style>-->
+    
+</ResourceDictionary>
